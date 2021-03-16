@@ -14,7 +14,9 @@ Create Jira tasks via  Slack shortcuts
 1. Clone the code
 2. Create .env.local
 JIRA_USER = "test@example.com:test_api_token"
-[How to manage Jira api tokens?](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
+
+- [How to manage Jira api tokens?](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
+
 3. Install dependencies and run app in local
 ```
 $ npm install
@@ -33,3 +35,8 @@ ngrok http 3000
 2. Request URL -> ngrok tunnel url
 3. Shortcuts -> Create New Shortcut -> Name: Report a new task, Short Description: Create a new jira task, Callback ID: reportTask
 4. Select Menus -> ngrok tunnel url
+
+### How to use slack bot?
+
+
+![Alt text](docs/images/slack-shortcuts.png "Slack shortcuts")
